@@ -1,8 +1,12 @@
+## Weather Data Analysis using python
+
+![9O6x3o](https://github.com/Nikitasuryawanshi/Weather-Monitoring-using-python/assets/105000370/5fa21b26-1244-4cc3-b52f-08138ae9d0b2)
+
 ### About Dataset:
 It is time series data set with per_hour information about wether condtion at perticuler location.it records Temparature,Dew point temperture,relative humidity,wind speed,visibilty,pressure and condtions.
 
 ### In this project, I used the following Python functions to analyze the data.
-#### 1.nunique() & unique()
+#### 1.nunique() & unique() 
 #### 2.Value_count()
 #### 3.Filtering
 #### 4.groupby()
