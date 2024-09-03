@@ -15,47 +15,66 @@ This project involves the analysis of a time series dataset containing hourly we
 #### nunique() & unique(): 
 To find unique values in the dataset. 🔍
 
-value_counts(): To count occurrences of unique values in a column. 📊
+#### value_counts(): 
+To count occurrences of unique values in a column. 📊
 
-Filtering: To extract specific data based on conditions. 🎯
+#### Filtering: 
+To extract specific data based on conditions. 🎯
 
-groupby() & get_group(): To group data and retrieve specific groups. 📂
+#### groupby() & get_group(): 
+To group data and retrieve specific groups. 📂
 
-isnull(): To identify and handle null values. 🚫
+#### isnull(): 
+To identify and handle null values. 🚫
 
-rename(): To rename columns in the dataframe. ✏️
+#### rename(): 
+To rename columns in the dataframe. ✏️
 
-mean(): To calculate the average of data. ➗
+#### mean(): 
+To calculate the average of data. ➗
 
-std(): To calculate the standard deviation of data. 📐
+#### std(): 
+To calculate the standard deviation of data. 📐
 
-str.contains(): To filter string data. 🔎
+#### str.contains(): 
+To filter string data. 🔎
 
-And/Or operator: To combine multiple conditions. ⚙️
+#### And/Or operator: 
+To combine multiple conditions. ⚙️
 
-Commands Used:
+### Commands Used:
 
-head(): Displays the first N rows of the data (default is 5). 👀
+#### head(): 
+Displays the first N rows of the data (default is 5). 👀
 
-shape: Provides the dimensions of the dataframe (rows, columns). 📏
+#### shape: 
+Provides the dimensions of the dataframe (rows, columns). 📏
 
-index: Gives the index of the dataframe. 📚
+#### index: 
+Gives the index of the dataframe. 📚
 
-columns: Lists all column names. 🏷️
+#### columns: 
+Lists all column names. 🏷️
 
-dtypes: Shows the data types of each column. 🧩
+#### dtypes: 
+Shows the data types of each column. 🧩
 
-unique(): Lists unique values in a column. 🗂️
+#### unique(): 
+Lists unique values in a column. 🗂️
 
-nunique(): Counts the number of unique values in columns. 🔢
+#### nunique(): 
+Counts the number of unique values in columns. 🔢
 
-count(): Counts non-null values in columns. 📈
+#### count(): 
+Counts non-null values in columns. 📈
 
-value_counts(): Counts occurrences of unique values in a column. 🧮
+#### value_counts(): 
+Counts occurrences of unique values in a column. 🧮
 
-info(): Provides a summary of the dataframe. 📜
+#### info(): 
+Provides a summary of the dataframe. 📜
 
-Questions Addressed:
+### Questions Addressed:
 
 Find all unique 'Wind Speed' values in the data. 💨
 
@@ -83,4 +102,4 @@ Determine the Minimum & Maximum value of each column against each 'Weather Condi
 
 Display records where 'Weather Condition is Fog'. 🌫️
 
-This project showcases how Python can be effectively used for weather data analysis, including data manipulation, statistical calculations, and answering specific weather-related queries.
+#### This project showcases how Python can be effectively used for weather data analysis, including data manipulation, statistical calculations, and answering specific weather-related queries.
