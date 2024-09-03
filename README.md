@@ -5,44 +5,49 @@
 ### About Dataset:
 It is time series data set with per_hour information about wether condtion at perticuler location.it records Temparature,Dew point temperture,relative humidity,wind speed,visibilty,pressure and condtions.
 
-### In this project, I used the following Python functions to analyze the data.
-#### 1.nunique() & unique() 
-#### 2.Value_count()
-#### 3.Filtering
-#### 4.groupby()
-#### 5.getgroup()
-#### 6.Isnull()
-#### 7.rename()
-#### 8.mean()
-#### 9.std()
-#### 10.str>containes
-#### 11.And/or operator
+Title: Weather Data Analysis Using Python ☁️🌡️
 
-### The commands that we used in this project :
+Description:
 
-##### * head() - It shows the first N rows in the data (by default, N=5).
-##### * shape - It shows the total no. of rows and no. of columns of the dataframe
-##### * index - This attribute provides the index of the dataframe
-##### * columns - It shows the name of each column
-##### * dtypes - It shows the data-type of each column
-##### * unique() - In a column, it shows all the unique values. It can be applied on a single column only, not on the whole dataframe.
-##### * nunique() - It shows the total no. of unique values in each column. It can be applied on a single column as well as on the whole dataframe.
-##### * count - It shows the total no. of non-null values in each column. It can be applied on a single column as well as on the whole dataframe.
-##### * value_counts - In a column, it shows all the unique values with their count. It can be applied on a single column only.
-##### * info() - Provides basic information about the dataframe.
+This project involves the analysis of a time series dataset containing hourly weather conditions at a specific location. The dataset includes various weather parameters such as temperature, dew point temperature, relative humidity, wind speed, visibility, pressure, and weather conditions.
 
-### Questions are given in the project and then solved with the help of Python.
+Key Python Functions and Techniques Used:
 
-##### Q. 1)  Find all the unique 'Wind Speed' values in the data.
-##### Q. 2) Find the number of times when the 'Weather is exactly Clear'.
-##### Q. 3) Find the number of times when the 'Wind Speed was exactly 4 km/h'.
-##### Q. 4) Find out all the Null Values in the data.
-##### Q. 5) Rename the column name 'Weather' of the dataframe to 'Weather Condition'.
-##### Q. 6) What is the mean 'Visibility' ?
-##### Q. 7) What is the Standard Deviation of 'Pressure'  in this data?
-##### Q. 8) What is the Variance of 'Relative Humidity' in this data ?
-##### Q. 9) Find all instances when 'Snow' was recorded.
-##### Q. 10) Find all instances when 'Wind Speed is above 24' and 'Visibility is 25'.
-##### Q. 11) What is the Mean value of each column against each 'Weather Condition ?
-##### Q. 12) What is the Minimum & Maximum value of each column against each 'Weather Condition ?
-##### Q. 13) Show all the Records where Weather Condition is Fog.
+nunique() & unique(): To find unique values in the dataset. 🔍
+value_counts(): To count occurrences of unique values in a column. 📊
+Filtering: To extract specific data based on conditions. 🎯
+groupby() & get_group(): To group data and retrieve specific groups. 📂
+isnull(): To identify and handle null values. 🚫
+rename(): To rename columns in the dataframe. ✏️
+mean(): To calculate the average of data. ➗
+std(): To calculate the standard deviation of data. 📐
+str.contains(): To filter string data. 🔎
+And/Or operator: To combine multiple conditions. ⚙️
+Commands Used:
+
+head(): Displays the first N rows of the data (default is 5). 👀
+shape: Provides the dimensions of the dataframe (rows, columns). 📏
+index: Gives the index of the dataframe. 📚
+columns: Lists all column names. 🏷️
+dtypes: Shows the data types of each column. 🧩
+unique(): Lists unique values in a column. 🗂️
+nunique(): Counts the number of unique values in columns. 🔢
+count(): Counts non-null values in columns. 📈
+value_counts(): Counts occurrences of unique values in a column. 🧮
+info(): Provides a summary of the dataframe. 📜
+Questions Addressed:
+
+Find all unique 'Wind Speed' values in the data. 💨
+Count occurrences of 'Weather is exactly Clear'. ☀️
+Count occurrences of 'Wind Speed was exactly 4 km/h'. 🌬️
+Identify all Null Values in the data. 🚫
+Rename the column 'Weather' to 'Weather Condition'. 📝
+Calculate the mean 'Visibility'. 👓
+Determine the Standard Deviation of 'Pressure'. ⚖️
+Find the Variance of 'Relative Humidity'. 💧
+Identify instances when 'Snow' was recorded. ❄️
+Find instances when 'Wind Speed is above 24' and 'Visibility is 25'. 🌪️
+Calculate the Mean value of each column against each 'Weather Condition'. 📊
+Determine the Minimum & Maximum value of each column against each 'Weather Condition'. 📈📉
+Display records where 'Weather Condition is Fog'. 🌫️
+This project showcases how Python can be effectively used for weather data analysis, including data manipulation, statistical calculations, and answering specific weather-related queries.
